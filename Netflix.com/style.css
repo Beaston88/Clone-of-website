@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+:root{
+    --primary-color: #e50914;
+    --dark-color: #141414;
+}
+body{
+    background: black;
+    color: #999999;
+}
+/* First-Panel */
+.first-panel{
+    height: 712px;
+    background-color: #00000066;
+    background-image: url(IN-en-20240610-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: cover;
+    opacity: 0.7;
+}
+.first-panel-Look{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    height: 712px;
+}
+/* Navbar */
+.navbar{
+    height: 80px;
+    padding: 24px 36px;
+    margin : 0px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* Logo */
+.nav-logo{
+    height: 72px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 72px;
+    width: 240px;
+    margin: 8px 0px 0px 16px;
+    padding-bottom: 32px;
+    padding-right: 15px;
+    background-image: url(Netflix_Logo_PMS.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.space{
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+
+/*Language Select*/
+.lang-select{
+    display: flex;
+}
+select{
+    height: 35px;
+    width: 140px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+option{
+    color: black;
+}
+/*sign in button*/
+.sign-button{
+    background-color: rgba(247, 66, 25, 0.958);
+    height: 35px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign{
+    text-decoration: none;
+    color: white;
+}
+
+/*first panel content*/
+.rest-item{
+    align-items: center;
+}
+.text-one{
+    height: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3rem;
+    text-decoration: solid;
+    font-weight: 700;
+    margin-top: 150px;
+}
+.text-two{
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+.text-three{
+    height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.2 rem;
+    margin-top: 15px;
+}
+.email-holder{
+    height: 50px;
+    margin: 0px 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    height: 50px;
+    width: 450px;
+}
+#mail1{
+    height: 50px;
+    width: 450px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    opacity: 0.75;
+    font-size: large;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.submit-button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(252, 47, 7);
+    font-size: 1.6rem;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 3px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    align-items: center;
+}
+
+/* Second - Panel */
+.second-panel{
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentOfSecondpanel{
+    height: 350px;
+    width: 970px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sp-text{
+    height: 250px;
+    width: 485px;
+    font-size: 1.5rem;
+    padding-top: 25px;
+    margin-right: 20px;
+}
+.tv-image{
+    height: 320px;
+    width: 450px;
+    background-image: url(tv.png);
+    background-size: cover;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+/* Third Panel */
+.third-panel{
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentOfthirdpanel{
+    height: 350px;
+    width: 970px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-image{
+    height: 320px;
+    width: 450px;
+    background-image: url(mobile-0819.jpg);
+    background-size: cover;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+.download{
+    height: 70px;
+    width: 330px;
+    border: 2px solid rgba(255, 255, 255, 0.615);
+    background-color: black;
+    margin-top: 285px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c1{
+    height: 60px;
+    width: 45px;
+    background-image: url(boxshot.png);
+    background-size: cover;
+}
+.c2{
+    height: 60px;
+    width: 220px;
+    text-align: left;
+    padding-top: 20px;
+    font-size: medium;
+    margin-left: 9px;
+}
+.c3{
+    height: 60px;
+    width: 45px;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+    background-size: cover;
+    margin-right: 10px;
+}
+.tp-text{
+    height: 250px;
+    width: 485px;
+    font-size: 1.5rem;
+    padding-top: 25px;
+    margin-left: 20px;
+}
+
+/* Fourth Panel */
+.fourth-panel{
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentOfFourthpanel{
+    height: 350px;
+    width: 970px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fp-text{
+    height: 250px;
+    width: 485px;
+    font-size: 1.5rem;
+    padding-top: 25px;
+    margin-left: 20px;
+}
+.combine-image{
+    height: 320px;
+    width: 450px;
+    background-image: url(device-pile-in.png);
+    background-size: cover;
+    margin-top: 10px 0px 30px 20px;
+}
+
+/* Fifth Panel */
+.fifth-panel{
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentOfFifthpanel{
+    height: 350px;
+    width: 970px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kids-image{
+    height: 320px;
+    width: 450px;
+    background-image: url(AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png);
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    }
+
+.fifp-text{
+    height: 250px;
+    width: 485px;
+    font-size: 1.5rem;
+    padding-top: 25px;
+    margin-right: 20px;
+}
+
+/* Last Panel */
+.last-panel{
+    height: 800px;
+
+}
+.heading{
+    height: 110px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 80px;
+}
+.region{
+    height: 500px;
+    width: 1200px;
+    margin-left: 180px;
+}
+#ques{
+    height: 50px;
+    width: 1200px;
+    background-color: rgba(46, 46, 46, 0.893);
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 1.5rem;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+#plus{
+    font-size: 30px;
+}
+.rest-item2{
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+}
+/* Footer */
+ul {
+    list-style-type: none;
+    display: block;
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.foot-panel{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+
+  
+#end-content{
+    display: block;
+}
